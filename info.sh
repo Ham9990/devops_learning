@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "memory and disk usage"
-df -h
+df -h >> log
 
 echo "network information"
-ip a
+ip a >> log
