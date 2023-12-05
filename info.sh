@@ -5,3 +5,5 @@ df -h >> log
 
 echo "network information"
 ip a >> log
+
+
